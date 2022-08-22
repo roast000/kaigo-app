@@ -48,8 +48,8 @@
 
 | Column             | Type       | Options                        |
 | ------------       | ---------- | ------------------------------ |
-| title              | string     | null: false                    |
-| text               | text       | null: false                    |
+| information_title  | string     | null: false                    |
+| information_text   | text       | null: false                    |
 | kaigo_category_id  | integer    | null: false                    |
 
 ### Association
@@ -60,8 +60,8 @@
 
 | Column          | Type       | Options                        |
 | ------------    | ---------- | ------------------------------ |
-| post_code       | string     | null: false                    |
-| prefecture_id   | string     | null: false                    |
+| comment         | string     | null: false                    |
+|                 | string     | null: false                    |
 | information     | references | null: false, foreign_key: true |
 | user            | references | null: false, foreign_key: true |
 
