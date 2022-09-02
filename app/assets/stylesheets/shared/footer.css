@@ -1,0 +1,12 @@
+.footer {
+  background-color: blue;
+  width: 100vw;
+  height: 100px;
+}
+
+.footer-type {
+  font-size: 30px;
+  text-align: center;
+  /* line-height: ; */
+  height: 100px;
+}

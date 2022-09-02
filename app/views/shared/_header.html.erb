@@ -1,11 +1,20 @@
-<header class="header">
+<div class="header">
   <div class="header-left">
     <div class="header-logo">kaigo</div>
     <div class="header-question">質問投稿</div>
   </div>
-  <div class="header-rigth">
-    <div class="header-sing-in">ログイン</div>
-    <div class="header-sing-out">ログアウト</div>
+  <div class="header-right">
+    <div class="header-sing-in">
+    <%=link_to "ログイン", "#" %></div>
+    <div class="header-sing-out">
+    <%=link_to "ログアウト", "#" %></div>
   </div>
-</header>
-  
+</div>
+<div class="header-bottom">
+  <ul class="tishiki">
+    <li class="ninti">
+    <%= link_to "認知症関連"%></li>
+    <li class="sintai"><%= link_to "身体介助関連"%></li>
+    <li class="liha"><%= link_to "リハビリ関連"%></li>
+  </ul>
+</div>

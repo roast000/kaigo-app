@@ -1,8 +1,52 @@
 
+/* ヘッダー関連 */
 .header {
-  background-color: orange;
-  width: 500px;
-  height: 200px;
+  background-color: gray;
+  width: 100vw;
+  height: 100px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  font-size: 20px;
+  font-weight: 100;
+  display: flex;
+}
+
+.header-right {
+display: flex;
+margin: 10px;
+}
+
+.header-logo {
+  
+}
+
+/* header下の知識バー */
+.tishiki {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 30px;
+ 
+}
+
+.tishiki a{
+text-decoration: none;
+color: black;
+}
+
+.ninti {
+  border: 1px solid blue;
+  padding: 10px;
+}
+.sintai {
+  border: 1px solid blue;
+  padding: 10px;
+}
+.liha {
+  border: 1px solid blue;
+  padding: 10px;
 }
