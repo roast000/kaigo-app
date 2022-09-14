@@ -2,10 +2,10 @@
   <div class = "header-bar-all">
     <div class = "header-bar-left">
       <div class = "header-bar-logo">
-        <%= link_to "ホームへ", "#"%>
+        <%= link_to "ホームへ", root_path %>
       </div>
       <div class = "header-bar-create">
-        <%= link_to "ログインユーザ名","#"%>
+        <%= link_to current_user.nickname,edit_user_path(current_user) %>
       </div>
     </div>
     <div class = "header-bar-light">
@@ -13,7 +13,7 @@
         <%= link_to "ログイン","#"%>
       </div>
       <div class = "header-sign-out">
-        <%= link_to "ログアウト","#"%>
+        <%= link_to "ログアウト",destroy_user_session_path,method: :delete, class: 'btn'%>
       </div>
     </div>
   </div>
