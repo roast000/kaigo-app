@@ -48,7 +48,6 @@
 background-color: #FFFFFF;
 height: 100vh;
 width: 100vw;
-overflow: scroll;
 }
 
 .question-chat {
@@ -56,20 +55,38 @@ overflow: scroll;
   width: 100vw;
   height: 100%;
 }
-
+/* サイドバー */
 .side-bar {
-  width: 200px;
   background-color: beige;
+  width: 200px;
+  height: 100%;
   padding: 20px;
+  margin: 0 auto;
 }
 
+.form-message {
+  width: 150px;
+  height: 200px;
+}
+
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}
+/* 質問一覧 */
 .messages-chat {
   width: calc(100vw - 200px);
   padding: 20px;
-
 }
 
-
+.message {
+  padding-bottom: 10px;
+}
 /* フッター */
 .footer {
   background-color: #253141;
