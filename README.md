@@ -15,7 +15,7 @@
 - has_many :question_comments
 - has_many :information_comments
 
-## questions テーブル (商品情報)
+## questions テーブル (質問)
 
 | Column                 | Type       | Options                       |
 | ----------------       | ------     | -----------------             |
