@@ -1,0 +1,90 @@
+.wrapper {
+  height: 1000px;
+  width: 100vw;
+}
+/* ヘッダー */
+.header-bar {
+  background-color: #253141;
+  width: 100vw;
+  height: 100px;
+}
+
+.header-bar-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  font-size: 20px;
+  padding: 0 20px;
+}
+.header-bar-left {
+  display: flex;
+}
+
+.header-bar-left a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header-bar-logo {
+  padding-right: 10px;
+}
+
+.header-bar-light {
+  display: flex;
+}
+
+.header-bar-light a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header-sign-in {
+  padding-right: 10px;
+}
+
+/* 質問投稿 */
+.chat {
+background-color: #FFFFFF;
+height: 100vh;
+width: 100vw;
+overflow: scroll;
+}
+
+.question-chat {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+}
+
+.side-bar {
+  width: 200px;
+  background-color: beige;
+  padding: 20px;
+}
+
+.messages-chat {
+  width: calc(100vw - 200px);
+  padding: 20px;
+
+}
+
+
+/* フッター */
+.footer {
+  background-color: #253141;
+  width: 100vw;
+  height: 50px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.footer-logo {
+color: white;
+font-size: 20px;
+}
