@@ -4,7 +4,7 @@
 }
 /* ヘッダー */
 .header-bar {
-  background-color: #253141;
+  background-color: orange;
   width: 100vw;
   height: 100px;
 }
@@ -57,7 +57,7 @@ width: 100vw;
 }
 /* サイドバー */
 .side-bar {
-  background-color: beige;
+  background-color: olive;
   width: 200px;
   height: 100%;
   padding: 20px;
@@ -70,7 +70,7 @@ width: 100vw;
 }
 
 .form-submit {
-  background-color: #38AEF0;
+  background-color: black;
   border: none;
   color: white;
   font-size: 16px;
@@ -89,7 +89,7 @@ width: 100vw;
 }
 /* フッター */
 .footer {
-  background-color: #253141;
+  background-color: orange;
   width: 100vw;
   height: 50px;
 }
